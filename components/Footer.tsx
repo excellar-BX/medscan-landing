@@ -44,7 +44,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="flex md:hidden text-black py-2 text-3xl " >
+          <div className="flex md:hidden text-black py-2 mx-3 text-3xl hover:text-primary " >
             <BiLogoTwitter/>
             <BiLogoLinkedinSquare/>
             <BiLogoFacebookCircle/>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
       <Image
-        src="/assets/FooterText1.png"
+        src="/assets/Medscan Footer Text 2.png"
         width={1000}
         height={1000}
         alt="Footer"
