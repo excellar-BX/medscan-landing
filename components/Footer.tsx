@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import {Link as ScrollLink} from 'react-scroll'
 import React from "react";
 import {BiLogoFacebookCircle, BiLogoInstagram, BiLogoLinkedin, BiLogoLinkedinSquare, BiLogoTwitter,} from "react-icons/bi"
 
@@ -25,12 +26,14 @@ const Footer = () => {
           <div className="  justify-between  py-5 md:flex hidden ">
             <ul className="flex flex-row items-center ">
               {nav.map((data, index) => (
-                <li
-                  key={data.name}
-                  className="mx-5 text-xl font-bold cursor-pointer "
-                >
-                  {data.name}
-                </li>
+      <ScrollLink to={data.route} className="mx-5 text-xl font-bold cursor-pointer "  activeClass="active"
+              smooth={true}
+              spy={true}
+              key={data.name}
+              offset={-150}>
+              {data.name}
+           </ScrollLink>
+                
               ))}
             </ul>
             <ul className="flex flex-row items-center ">
