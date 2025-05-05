@@ -16,7 +16,7 @@ const Works = () => {
   const [livePicSrc, setLivePicSrc] = useState<string>("/assets/site picture 5 3.png");
 
   return (
-    <div className="md:my-40 md:mx-32 mx-3 my-10 " >
+    <div className="md:my-40 md:mx-32 mx-3 my-10 " id="works" >
         <div className="title text-2xl md:text-6xl font-Poppins-bold text-center py-5 "><div className='text-primary' >How It Works</div> Track, Verify, Protect.</div>
     <div className=' flex flex-col md:flex-row gap-x-10 items-center justify-between ' >
       <div className="left-side md:w-[50%] w-full ">
