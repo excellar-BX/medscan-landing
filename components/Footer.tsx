@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
-import {Link as ScrollLink} from 'react-scroll'
+import {Link as ScrollLink} from 'react-scroll';
 import React from "react";
 import {BiLogoFacebookCircle, BiLogoInstagram, BiLogoLinkedin, BiLogoLinkedinSquare, BiLogoTwitter,} from "react-icons/bi"
 
 const Footer = () => {
   const nav = [
-    { name: "Home", route: "#" },
-    { name: "Features", route: "#" },
-    { name: "How It Works", route: "#" },
-    { name: "Integration", route: "#" },
-    { name: "Support", route: "#" },
+    { name: "Home", route: "hero" },
+    { name: "Features", route: "features" },
+    { name: "How It Works", route: "works" },
+    { name: "Integration", route: "integration" },
+    { name: "Support", route: "banner" },
   ];
   const socials = [
-    { name: "Instagram", route: "#" },
-    { name: "Linkedin", route: "#" },
+    { name: "Instagram", route: "https://instagram.com/medscanafrica" },
+    { name: "Linkedin", route: "https://www.linkedin.com/company/medscan-africa/" },
     { name: "Twitter", route: "#" },
     { name: "Facebook", route: "#" },
   ];
@@ -47,11 +47,19 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="flex md:hidden text-black py-2 mx-3 text-3xl hover:text-primary " >
-            <BiLogoTwitter className="mx-2" />
-            <BiLogoLinkedinSquare className="mx-2" />
-            <BiLogoFacebookCircle className="mx-2" />
-            <BiLogoInstagram className="mx-2" />
+          <div className="flex md:hidden text-black py-2 mx-3 text-3xl  " >
+            <Link href="#">
+            <BiLogoTwitter className="mx-2 hover:text-primary" />
+              </Link>
+            <Link href="https://www.linkedin.com/company/medscan-africa/">
+            <BiLogoLinkedinSquare className="mx-2 hover:text-primary" />
+            </Link>
+            <Link href="#">
+            <BiLogoFacebookCircle className="mx-2 hover:text-primary " />
+              </Link>
+            <Link href="https://instagram.com/medscanafrica">
+            <BiLogoInstagram className="mx-2 hover:text-primary" />
+              </Link>
           </div>
         </div>
         <div className="flex  flex-row max-md:flex-wrap max-sm:mx-1 xl:text-xl text-lg justify-between py-5 ">
