@@ -15,7 +15,7 @@ const Footer = () => {
   const socials = [
     { name: "Instagram", route: "https://instagram.com/medscanafrica" },
     { name: "Linkedin", route: "https://www.linkedin.com/company/medscan-africa/" },
-    { name: "Twitter", route: "#" },
+    { name: "Twitter", route: "https://x.com/medscanafrica" },
     { name: "Facebook", route: "#" },
   ];
 
