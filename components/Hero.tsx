@@ -6,7 +6,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div>
-      <div className="  xl:h-screen relative">
+      <div className="  xl:h-screen relative" id="hero">
         <div className="bg-[#a6f4c5] bg-opacity-40 w-full mx-auto h-[150vh] absolute blur-[300px] rounded z-[-1] "></div>
         <div>
           <Header />
