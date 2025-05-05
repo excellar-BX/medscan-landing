@@ -26,7 +26,7 @@ const Header = () => {
   
     </div>
 
-      <nav className={`flex max-xl:absolute top-0 trasition-all ease-in-out  max-md:right-0 max-xl:right-20 z-[9999] max-xl:top-20 ${open? 'flex' : 'max-xl:hidden' } max-xl:max-w-[600px] max-xl:rounded-none max-xl:rounded-xl max-xl:w-full max-xl:bg-primary max-xl:px-5   max-xl:text-white flex-1 flex-col xl:flex-row justify-evenly `} >
+      <nav className={`flex max-xl:absolute top-0 trasition-all ease-in-out  max-md:right-0 max-xl:right-20 z-[9999] max-xl:top-20 ${open? 'flex' : 'max-xl:hidden' } max-xl:max-w-[600px] max-sm:rounded-none max-xl:rounded-xl max-xl:w-full max-xl:bg-primary max-xl:px-5   max-xl:text-white flex-1 flex-col xl:flex-row justify-evenly `} >
         <ul className='flex flex-col xl:flex-row items-center ' >
           {nav.map((data, index) => (
       <ScrollLink to={data.route} className='mx-5 max-xl:border max-xl:border-white max-xl:rounded-full max-xl:w-full max-xl:py-4 max-xl:text-center max-xl:m-3  text-xl font-bold cursor-pointer '  activeClass="active"
