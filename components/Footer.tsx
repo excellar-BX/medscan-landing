@@ -45,13 +45,13 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex md:hidden text-black py-2 mx-3 text-3xl hover:text-primary " >
-            <BiLogoTwitter/>
-            <BiLogoLinkedinSquare/>
-            <BiLogoFacebookCircle/>
-            <BiLogoInstagram/>
+            <BiLogoTwitter className="mx-2" />
+            <BiLogoLinkedinSquare className="mx-2" />
+            <BiLogoFacebookCircle className="mx-2" />
+            <BiLogoInstagram className="mx-2" />
           </div>
         </div>
-        <div className="flex  flex-row max-md:flex-wrap max-sm:mx-1 justify-between py-5 ">
+        <div className="flex  flex-row max-md:flex-wrap max-sm:mx-1 xl:text-xl text-lg justify-between py-5 ">
           <Link href="mailto:info@medscan.africa">info@medscan.africa</Link>
           <span>Medscan. All Rights Reserved</span>
           <Link href="#">Privacy Policy</Link>
