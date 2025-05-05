@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
         <div className="relative xl:bg-hero bg-no-repeat bg-center bg-cover mx-auto max-md:mx-5 max-sm:mx-2 md:w-[80%] xl:h-[80vh] h-fit ">
           {/* <div className="absolute" ><Image src="/assets/Hero.png" width={2000} height={2000} alt='hero-pic' className='w-full h-[90vh] ' /></div> */}
-          <div className="xl:text-5xl text-3xl w-full xl:w-[55%] mx-auto font-Poppins-bold text-center xl:pt-32 md:p-10 pt-10  ">
+          <div className="xl:text-5xl text-3xl w-full xl:w-[55%] max-sm:mb-5 mx-auto font-Poppins-bold text-center xl:pt-32 md:p-10 pt-10  ">
             Track, Verify and Protect Your Products In
 
             <div className="text-primary relative inline-block ">
